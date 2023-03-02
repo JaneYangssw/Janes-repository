@@ -1,0 +1,39 @@
+/* 整体样式 */
+.container {
+    padding: 1em
+}
+/* 左侧列表 */
+.list-area {
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    height: 400px;
+    background-color: hsl(220, 40%, 90%);
+}
+/* 中间两个按钮区域 */
+.divider {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+/* 文本域与OK按钮父级盒 */
+.input-area {
+    width: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 1em auto;
+}
+/* 文本域 */
+.input-area textarea {
+    width: 500px;
+}
+/* OK按钮 */
+.okbutton{
+    width: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 1em auto;
+}
